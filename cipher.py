@@ -1,7 +1,7 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 shifted_message = ""
 
-entered_sentence = input("Please enter your sentence").lower()
+entered_sentence = input("Please enter your sentence:").lower()
 shift = 5
 
 for letter in entered_sentence:
@@ -13,7 +13,7 @@ for letter in entered_sentence:
     else:
         shifted_message += letter
 
-print(shifted_message)
+print("The encrypted sentence is:", shifted_message)
 
 
 
